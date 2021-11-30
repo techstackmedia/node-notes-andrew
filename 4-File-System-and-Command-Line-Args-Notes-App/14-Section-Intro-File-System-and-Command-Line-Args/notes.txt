@@ -1,0 +1,2 @@
+- work with file system - store the note data
+- work with command line arguments to get input from user

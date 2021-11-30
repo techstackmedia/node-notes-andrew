@@ -1,0 +1,13 @@
+- nodejs.org 
+- download the latest version of node (latest feature) 
+- download the installer 12 >
+- Install
+- terminal (cmd + space)
+$ node -v
+$ -bash: node: command not found
+- Visual Studio Code - code.visualstudio.com
+
+Others
+- Webstorm
+- Atom
+- etc.

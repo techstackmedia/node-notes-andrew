@@ -1,0 +1,4 @@
+- Load module to our app env to use (Core Module)
+- fs.writeFile(file, data[, options], callback)
+- fs.writeFileSync(file, data[, options])
+

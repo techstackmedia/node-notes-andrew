@@ -1,0 +1,28 @@
+- Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+- Node.js uses an event-driven, non-blocking I/O model that makes it
+lightweight and efficient. 
+- Node.js package ecosystem package ecosystem, npm is the largest ecosystem
+of open source libraries in the world.
+
+- Node is JS outside of the browser - create web server, application, cli, backend
+- Node is JS running on the server as oppose to running on the browser
+- V8 is a google open source project
+- V8 compile your code to machine code
+- V8/Chrome is written in C++
+- Runtime provide tools (libraries) and functionality specific to the environment- modified version on JS
+- liberies for setting up web server, integrating with the file system to read and write from disc
+- Ability to interating with filesystem when the file system is not part of node - due to C++ binding
+
+- Chrome/node do not understand the code, so it Parses code to V8 to get result
+- Chrome/node provide implementation to run code to V8
+C++ binding behind the screen
+- Chrome v8 runtime
+- runtime in browser is most likely different to that in node
+
+- Some JS feature can still be available in node (REPL) e.g.
+- 'Andrew'.toUpperCase()
+- Different runtime in browser and chrome
+- global (node) - window (browser)
+- process (node) - document (browser)
+
+> process.exit()

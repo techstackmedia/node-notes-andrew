@@ -1,0 +1,31 @@
+--title may not be required 
+We can decide if a given option should be required with demandOption: true or false
+
+yargs.command({
+  command: "add",
+  builder: {
+    title: {
+      describe: "Note title",
+      demandOption: true,
+    },
+  },
+  describe: "Add a new note",
+  handler: function (argv) {
+    console.log("Adding a new note!", argv);
+  },
+});
+// { _: [ 'add' ], '$0': 'app.js' }
+
+$ node app.js add --title 
+returns 
+{ _: [ 'add' ], title: true, '$0': 'app.js' }
+
+we don't want true when we do not set the title of the note. See below solution
+
+...
+title: {
+    describe: 'Note title',
+    demandOption; true,
+    type: 'string'
+}
+...

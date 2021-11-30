@@ -1,0 +1,16 @@
+- Instructor: Andrew Mead 
+- Software Developer and Instructor
+
+The Complete Node.JS Developer Course
+
+1 - Course Curriculum
+Part 1: Note Taking App
+Part 2 - Weather App
+Part 3 - Task Manager App
+Part 4 - Chat App
+2 - How to get the most out of the course
+- Need to interact with it - code along
+- Solve challenges
+3 - How to get Help
+- Course Q & A
+- Zip up code or screen shot question and upload on the QA

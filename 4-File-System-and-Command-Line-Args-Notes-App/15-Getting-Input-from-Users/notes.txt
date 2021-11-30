@@ -1,0 +1,12 @@
+- As a user you should Provide info about note - title and body to use the notes app
+- Remove a note - provide info which note to remove
+$ node app.js Andrew
+- Where do we access the command line args - there on the process global variable
+
+process.argv
+argument vector - an array containing all the arguments provided
+- Use if-else block to determine if someone is adding or removing a note
+- If adding a note specify the note title and body
+- If removing a note specify the title
+- In terminal do this
+$ node app.js add --title="This is my title"

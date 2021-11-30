@@ -1,0 +1,17 @@
+- Node.js uses an event-driven, non-blocking I/O model that makes it
+lightweight and efficient. 
+
+Non-blocking I/O
+I/O - whenever there's a communication with the outside world
+I/O - communication with machine (reading some data from file on a filesystem)
+I/O - communicate with some server (querying a database to fetch some record from database)
+non-blocking - while node app waiting (querying the db), we can do other things.
+- non-blocking is from the browser. It starts from the browser, otherwise the browser will 
+completely freeze up whenever an I/O operation is happening
+
+- event-driven is the process of registering those callback and having them called when 
+the I/O operations is done.
+
+- Node.js package ecosystem package ecosystem, npm is the largest ecosystem
+of open source libraries in the world.
+- npmjs.com

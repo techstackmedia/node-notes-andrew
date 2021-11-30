@@ -1,0 +1,21 @@
+Load npm packages to use in our app.
+- Validating data like email 
+
+- initialize npm
+- store module we want to use
+
+- npm -v 
+- v 5 >
+
+- run npm init from the root of the project
+- npm create a single configuration to manage our dependencies
+
+- use type: module in package.json
+- export default module and import * from './file.extention'
+- import validator from 'validator'
+- npm i validator@10.8.0
+
+- We got a package-lock.json file and node_modules folder once we downloaded validator
+- Use well tested packages
+
+- package-lock and node_moduules should not be  edited it is maintained by npm

@@ -1,0 +1,11 @@
+- install global npm packages, not local packages that are listed with dependencies in package.json
+- npmjs.com - npm i -g nodemon@1.18.5
+- run as an administrator sudo npm i nodemon -g
+- nodemon -v
+
+- Running on PowerShell - windows error issue
+- Click Windows icon and search for "PowerShell"
+- Right-click "PowerShell" and click "Run as administrator"
+- Run Set-ExecutionPolicy Unrestricted
+- Rerun nodemon -v
+$ nodemon app.js

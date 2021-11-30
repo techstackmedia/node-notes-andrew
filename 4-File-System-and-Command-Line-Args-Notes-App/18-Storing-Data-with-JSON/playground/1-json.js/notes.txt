@@ -1,0 +1,1 @@
+json works with array and objects to model all of our data and object can model something like a book.
