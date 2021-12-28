@@ -4,7 +4,7 @@
 The Complete Node.JS Developer Course
 
 1 - Course Curriculum
-Part 1: Note Taking App
+Part 1: Note Taking App 
 Part 2 - Weather App
 Part 3 - Task Manager App
 Part 4 - Chat App
