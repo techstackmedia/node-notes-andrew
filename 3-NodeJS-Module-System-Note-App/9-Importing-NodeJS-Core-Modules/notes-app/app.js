@@ -14,4 +14,6 @@ fs.writeFileSync("notes.txt", "My name is Andrew.");
 // 2. Run the script
 // 3. Check your work by opening the file and viewing the appended text
 
-fs.appendFileSync("notes.txt", " Append this text to the previous text...");
+const note = `Append this text to the previous text... 
+Created: ${new Date(Date.now())}`;
+fs.appendFileSync("notes.txt", note);
