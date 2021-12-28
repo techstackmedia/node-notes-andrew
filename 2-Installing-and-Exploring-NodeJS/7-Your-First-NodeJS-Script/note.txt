@@ -1,2 +1,2 @@
-- console.og is part of the runtime, not the programming lang.
+- console.log is part of the runtime, not the programming lang.
 Terminal - New Terminal - node hello.js
