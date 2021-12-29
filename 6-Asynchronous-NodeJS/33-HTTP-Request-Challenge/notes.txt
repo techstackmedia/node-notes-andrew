@@ -1,0 +1,2 @@
+Geocoding converts the location to latitude and longitude
+Address -> lat/long - weather

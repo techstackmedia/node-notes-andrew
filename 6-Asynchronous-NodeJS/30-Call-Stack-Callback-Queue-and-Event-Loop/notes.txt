@@ -1,0 +1,8 @@
+Call Stack - Track the execution of our program (functions) through the execution context
+
+registering an event in Node APIs
+
+Callback Queue and Event loop
+Callback Queue maintain all of the callback ready to be executed
+
+Event loop - If call stack is empty it execute the callback function to the call stack

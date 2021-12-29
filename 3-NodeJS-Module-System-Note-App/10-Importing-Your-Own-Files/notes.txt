@@ -4,3 +4,5 @@ All the files that you want to reference to have their own scope
 We need to export from one file to another file in order to inport the file to use in another file
 
 - That is a file scope has it variable, function privite to itself... we need to explicitly load it to another file to use the file
+
+node inspect app.js

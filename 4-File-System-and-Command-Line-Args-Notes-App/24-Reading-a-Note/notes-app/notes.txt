@@ -1,0 +1,10 @@
+chrome://inspect 
+Remote target
+target - inspect
+configure
+debug> restart
+debug> ctrl + c (2x)
+
+nvm install <version number>
+nvm use <version number>
+nvm ls-remote
